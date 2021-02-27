@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - Menu
     - Name
     - PauseMenu
+    - PlayerSettings
     - Score
     - Username
     - car
@@ -87,11 +88,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13690}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14516}
     - Class: 114
-      Script: {instanceID: 14594}
+      Script: {instanceID: 14596}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15156}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -129,6 +130,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -164,11 +169,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14220}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14364}
     - Class: 114
-      Script: {instanceID: 14522}
+      Script: {instanceID: 14516}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 14524}
+    - Class: 114
+      Script: {instanceID: 15156}
+    - Class: 114
+      Script: {instanceID: 15178}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -233,15 +242,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14330}
     - Class: 114
-      Script: {instanceID: 14514}
+      Script: {instanceID: 14516}
     - Class: 114
-      Script: {instanceID: 15120}
+      Script: {instanceID: 15122}
     - Class: 114
-      Script: {instanceID: 15154}
+      Script: {instanceID: 15156}
     - Class: 114
-      Script: {instanceID: 15176}
+      Script: {instanceID: 15178}
     - Class: 114
-      Script: {instanceID: 15200}
+      Script: {instanceID: 15202}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -697,6 +706,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChooseNumLives
+  - hash:
+      serializedVersion: 2
+      Hash: 407e827c612cd491078f7abce43157e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerSettings
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
